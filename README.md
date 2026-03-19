@@ -1,2 +1,1 @@
-# Terms-of-Service-page
-This is a simple Terms of Service page. 
+This is my website. The TotoLoco website. Where you can find a welcome, privacy/policy and terms of service.
