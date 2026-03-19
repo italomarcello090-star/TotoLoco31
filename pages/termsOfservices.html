@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Terms of Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+ body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+   nav {
+      background-color: #333;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+      transform: scale(1.15) rotate(1deg);
+    }
+.content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 16px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,1);
+    }
+    .content h1 {
+      padding-top: 20px;
+      text-align: center;
+    }
+    .content p {
+      padding: 0 20px 20px;
+      line-height: 1.6;
+    }
+   footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      background-color: #222;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="./termsOfservices.html">Terms of Service</a>
+    <a href="./privacy-policy.html">Privacy Policy</a>
+  </nav>
+<div class="content">
+  <h1>Terms of Service</h1>
+
+  <p><strong>Last updated:</strong> <!-- You can put a date here, e.g. 19 March 2026 --></p>
+
+  <p>
+    This project (“App X”) is an experimental application created for learning and personal use.
+    It connects to the TikTok API to fetch data with user permission.
+  </p>
+
+  <h2>Purpose of the application</h2>
+  <p>
+    App X is intended solely for educational and experimental purposes. It is not a commercial
+    product and is not offered as a service to the general public.
+  </p>
+
+  <h2>Use of TikTok data</h2>
+  <p>
+    The application may access TikTok data only after the user authorizes access via TikTok’s
+    official login and permission flow. Any data retrieved is used only to:
+  </p>
+  <ul>
+    <li>Test and learn how the TikTok API works.</li>
+    <li>Display or process data within the experimental application environment.</li>
+  </ul>
+  <p>
+    The application does not intentionally sell, rent, or share TikTok data with third parties.
+  </p>
+
+  <h2>Data storage</h2>
+  <p>
+    Because this is an experimental project, data may be stored temporarily for testing and
+    debugging. No guarantees are made regarding long-term storage, backups, or deletion.
+  </p>
+
+  <h2>No warranties</h2>
+  <p>
+    This application is provided “as is” without any warranties of any kind, whether express or
+    implied. Use of the application is at your own risk.
+  </p>
+
+  <h2>Limitation of liability</h2>
+  <p>
+    To the maximum extent permitted by law, the developer of this application shall not be liable
+    for any damages or losses arising from the use of, or inability to use, this application.
+  </p>
+
+  <h2>Third-party services</h2>
+  <p>
+    This application interacts with TikTok, a third-party service. Your use of TikTok is governed
+    by TikTok’s own terms, policies, and rules. This project is not affiliated with or endorsed by TikTok.
+  </p>
+
+  <h2>Changes to these terms</h2>
+  <p>
+    These Terms of Service may be updated from time to time. Continued use of the application after
+    changes are posted will constitute acceptance of the updated terms.
+  </p>
+
+  <h2>Contact</h2>
+  <p>
+    If you have any questions about these Terms of Service, you can contact the developer at:
+    <!-- Replace with your email -->
+    <a href="mailto:italomarcello090@gmail.com">italomarcello090@gmail.com</a>.
+  </p>
+  </div>
+
+   <footer>
+    <p>&copy; <span id="year"></span> TotoLoco31 — All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
